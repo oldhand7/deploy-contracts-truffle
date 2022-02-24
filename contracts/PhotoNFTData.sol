@@ -13,7 +13,7 @@ contract PhotoNFTData is PhotoNFTDataStorages {
 
     uint256 public premiumLimit = 2592000; //30 * 24 * 3600
 
-    constructor() {}
+    constructor() public {}
 
     /**
      * @notice - Save metadata of a photoNFT
